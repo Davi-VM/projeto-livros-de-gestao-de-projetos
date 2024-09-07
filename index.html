@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Livros Gestão</title>
+</head>
+<body>
+    <header>
+        <h1>Descubra Livros de Gestão de Projetos</h1>
+    </header>
+
+    <main>
+        <section class="pesquisa">
+            <input type="text" placeholder="Digite o nome do livro que deseja ou pesquisar para ver todos" id="campo-pesquisa">
+            <div>
+                <button onclick="limpar()" class="botao-limpar">Limpar</button>
+                <button onclick="pesquisar()" class="botao-pesquisar">Pesquisar</button>
+            </div>
+        </section>
+
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 - Livros de gestão de projetos. Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: livros@gestao.com.br</p>
+    </footer>
+    
+    <script src="javascript/dados.js"></script>
+    <script src="javascript/app.js"></script>
+</body>
+</html>
